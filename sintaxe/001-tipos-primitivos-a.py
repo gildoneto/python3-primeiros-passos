@@ -8,10 +8,10 @@
 # print(type(testeTipo02))
 
 #_| somando dois números com a função int
-# number01 = int(input('number 01: '))
-# number02 = int(input('number 02: '))
-# sum = number01 + number02
-# print('O total da soma é', sum)
+number01 = int(input('number 01: '))
+number02 = int(input('number 02: '))
+sum = number01 + number02
+print('O total da soma é', sum)
 
 #_| somando dois números sem a função int
 #_| teremos uma concatenação ao invés de uma soma
