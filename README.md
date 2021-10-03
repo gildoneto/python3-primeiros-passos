@@ -2,14 +2,32 @@
 
 ## Tipos primitivos
 
-- int -> números inteiros
-- float -> números reais
-- bool -> booleano [`True`, `False`]
-- str -> string -> caracteres
+- `int` -> números inteiros
+- `float` -> números reais
+- `bool` -> booleano [`True`, `False`]
+- `str` -> string -> caracteres
 
 ## Formato de variáveis dentro de strings [Python 3]
 
 - Usar a função format()
-    - `('string qualquer {} com {} variáveis {}'.format(var0, var1, var2)`
+    - `('string qualquer {} com {} variáveis {}'.format(var0, var1, var2))`
 - Também é possível numerar as máscaras{}, sempre começando a contagem de 0
-    -  `('string qualquer {2} com {0} variáveis {1}'.format(var0, var1, var2)`
+    -  `('string qualquer {2} com {0} variáveis {1}'.format(var0, var1, var2))`
+
+## Operadores Aritméticos
+
+- Adição: *`+`*
+- Subtração: *`-`*
+- Multiplicação: *`*`*
+- Divisão: *`/`*
+- Potência: *`**`*
+- Divisão Inteira: *`//`*
+- Resto da Divisão [Módulo]: *`%`*
+- Operador de igualdade: *`==`*
+
+### Ordem de Precedência
+
+- 1: Parênteses: `()`
+- 2: Potência: `**`
+- 3: Multiplicação, divisão, divisão inteira e resto: `*`, `/`, `//` e `%`
+- 4: Adição e subtração: `+`, `-`
