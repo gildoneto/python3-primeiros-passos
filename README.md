@@ -31,3 +31,16 @@
 - 2: Potência: `**`
 - 3: Multiplicação, divisão, divisão inteira e resto: `*`, `/`, `//` e `%`
 - 4: Adição e subtração: `+`, `-`
+
+## Módulos
+
+- `import modulo` -> todas as funcionalidades do módulo
+- `from modulo import funcionalidade` -> importa só uma funcionalidade específico
+
+- `math`
+    - `ceil` (arredonda pra cima)
+    - `floor` (arredonda pra baixo)
+    - `trunc` (ignora casa decimal sem arredondamento)
+    - `pow` (potência)
+    - `sqrt` (raiz quadrada)
+    - `factorial` (fatorial)
