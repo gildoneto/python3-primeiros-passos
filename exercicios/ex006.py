@@ -2,8 +2,4 @@
 
 valorDigitado = int(input('Digite um número: '))
 
-dobro = valorDigitado * 2
-triplo = valorDigitado * 3
-raiz = valorDigitado**(1/2)
-
-print('O dobro de {} é {}. O triplo é {}, e raiz quadrada é {}'.format(valorDigitado, dobro, triplo, raiz))
+print('O dobro de {} é {}. O triplo é {}, e raiz quadrada é {:.2f}'.format(valorDigitado, valorDigitado * 2, valorDigitado * 3, valorDigitado**(1/2)))

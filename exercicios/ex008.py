@@ -2,7 +2,7 @@
 
 valorDigitado = int(input('Digite um valor: '))
 
-cent = valorDigitado * 100
-mili = valorDigitado * 1000
+cm = valorDigitado * 100
+mm = valorDigitado * 1000
 
-print('{} metro(s) é igual a {} centímetros ou a {} milímetros.'.format(valorDigitado, cent, mili))
+print('{} metro(s) é igual a {} centímetros ou a {} milímetros.'.format(valorDigitado, cm, mm))
