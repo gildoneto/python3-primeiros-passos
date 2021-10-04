@@ -1,7 +1,10 @@
-import math
+# # import math
+# from math import sqrt, floor
 
-num = int(input('Num: '))
+# num = int(input('Num: '))
 
-raiz = math.sqrt(num)
+# # raiz = math.sqrt(num)
+# raiz = sqrt(num)
 
-print(raiz)
+# print('A raiz de {} é igual a {:.2f}'.format(num, floor(raiz)))
+

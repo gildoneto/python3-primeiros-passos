@@ -4,6 +4,9 @@
 
 from math import trunc
 
-entrada = float(input('Digite um numero real: '))
+num = float(input('Digite um numero real: '))
 
-print('A parte inteira do número {} é {}'.format(entrada, trunc(entrada)))
+print('A parte inteira do número {} é {}'.format(num, trunc(num)))
+
+## nesse caso a função int() também tem o mesmo comportamento do trunc()
+# print('A parte inteira do número {} é {}'.format(num, int(num)))
