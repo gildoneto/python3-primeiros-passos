@@ -71,6 +71,7 @@
     frase.count('o') ==> 3
     frase.count('o', 0, 13) ==> 1
     frase.find('deo') ==> 11
+    frase.rfind('n') ==> 20
     frase.find('Android') ==> -1
     'Curso' in frase ==> True
     ```

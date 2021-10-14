@@ -8,11 +8,22 @@
 # centena: 8
 # milhar: 1
 
-milhar = input('Digite um número de 4 dígitos: ')
+numero = int(input('Digite um número de 4 dígitos: '))
+unidade = numero // 1 % 10
+dezena = numero // 10 % 10
+centena = numero // 100 % 10
+milhar = numero // 1000 % 10
 
 print("""
 Unidade: {}
 Dezena: {}
 Centena: {}
 Milhar: {}
-""".format(milhar[3],milhar[2],milhar[1],milhar[0]))
+""".format(unidade, dezena, centena, milhar))
+
+# print("""
+# Unidade: {}
+# Dezena: {}
+# Centena: {}
+# Milhar: {}
+# """.format(milhar[3],milhar[2],milhar[1],milhar[0]))

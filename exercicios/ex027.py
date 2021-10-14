@@ -5,7 +5,7 @@
 # primeiro = Ana
 # ultimo = Souza
 
-nomeCompleto = input('Digite seu nome completo: ')
+nomeCompleto = str(input('Digite seu nome completo: ')).strip()
 
 numPalavras = len(nomeCompleto.split())
 

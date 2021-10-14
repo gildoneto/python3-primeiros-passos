@@ -1,11 +1,13 @@
 # Crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA" no nome.
 
-nomeCompleto = input('Digite seu nome completo: ').upper()
+nomeCompleto = str(input('Digite seu nome completo: ')).strip()
 
-posicaoSilva = nomeCompleto.find('SILVA')
-tamSilva = posicaoSilva + 5
+print('NOME TEM SILVA? {}'.format( 'SILVA' in nomeCompleto.upper()))
 
-if posicaoSilva >= 0:
-    print('NOME TEM', nomeCompleto[posicaoSilva: tamSilva])
-else:
-    print('NOME NÃO TEM SILVA')
+# posicaoSilva = nomeCompleto.find('SILVA')
+# tamSilva = posicaoSilva + 5
+
+# if posicaoSilva >= 0:
+#     print('NOME TEM', nomeCompleto[posicaoSilva: tamSilva])
+# else:
+#     print('NOME NÃO TEM SILVA')

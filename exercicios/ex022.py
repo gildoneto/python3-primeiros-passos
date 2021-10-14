@@ -1,5 +1,5 @@
 # Crie um programa que leia o nome completo de uma pessoa e mostre:
-nomeCompleto = input('Digite seu nome completo: ')
+nomeCompleto = str(input('Digite seu nome completo: ')).strip()
 # O nome com todas as letras maiúsculas
 print('Letras Maiusculas: ', nomeCompleto.upper())
 # O nome com todas minúsculas
