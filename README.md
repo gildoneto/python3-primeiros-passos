@@ -107,3 +107,27 @@
 
     '-'.join(frase) ==> frase == 'Curso-em-Vídeo-Python'
     ```
+
+## Condições
+
+### Condição Simples
+
+```python
+if media >= 6.0:
+    print('APROVADO!')
+```
+
+### Condição Composta
+
+```python
+if media >= 6.0:
+    print('APROVADO!')
+else:
+    print('REPROVADO!')
+```
+
+### Condição Simplificada
+
+```python
+print('APROVADO!' if media >= 6 else 'REPROVADO!')
+```
