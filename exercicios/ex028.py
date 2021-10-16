@@ -4,12 +4,15 @@
 
 # O programa deverá escrever na tela se o usuário venceu ou perdeu.
 
-import random
+from random import randint
+from time import sleep
 
-numMaquina = random.randint(0, 5)
+numMaquina = randint(0, 5)
 
 numUsuario = int(input('Adivinhe que numero o computador está pensando agora entre 0 e 5: '))
 
+print('PROCESSANDO...')
+sleep(2)
 if numUsuario == numMaquina:
     print('\nWOW!! Você acertou. O Computador tinha pensado justamente no numero {}.'.format(numUsuario))
 else:
